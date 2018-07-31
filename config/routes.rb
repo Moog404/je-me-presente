@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  get '/', to: 'static_pages#home'
+  get '/', to: 'static_pages#home', as:'home'
   get '/contact', to: 'static_pages#contact'
   get '/about', to: 'static_pages#about'
 
