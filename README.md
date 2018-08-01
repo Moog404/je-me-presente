@@ -1,24 +1,30 @@
-# README
+# THP - SEMAINE 5 - Je me Présente
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+> contributeur: GOUACIDE Kwevan et ENG Eang-Ly
 
-* Ruby version
 
-* System dependencies
+### Lien du site:  
 
-* Configuration
+https://je-me-presente-moog.herokuapp.com
 
-* Database creation
+### Pour une utilisation en local
 
-* Database initialization
+Après avoir clone le repo et entrer dans le dossier
 
-* How to run the test suite
+Dans le TERMINAL
+```sh
+bundle install --without production
+```
+```sh
+rails db:migrate
+```
+```sh
+rails server
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+Puis aller sur ce lien
 
-* Deployment instructions
+localhost:3000/
 
-* ...
+
